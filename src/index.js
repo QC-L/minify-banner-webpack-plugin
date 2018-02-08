@@ -29,7 +29,7 @@ class MinifyBannerWebpackPlugin {
       compilation.plugin("optimize-chunk-assets", (chunks, callback) => {
         chunks.forEach((chunk) => {
           if(!chunk.isInitial()) return;
-				  chunk.files.forEach((file) => {
+	  chunk.files.forEach((file) => {
             return compilation.assets[file] = new ConcatSource(banner, "\n", compilation.assets[file]);
           });
         })
