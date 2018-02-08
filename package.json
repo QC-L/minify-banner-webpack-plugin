@@ -1,0 +1,24 @@
+{
+  "name": "minify-banner-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack plugin provide banner functionality",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QC-L/minify-banner-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "banner"
+  ],
+  "author": "QC-L",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QC-L/minify-banner-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/QC-L/minify-banner-webpack-plugin#readme",
+  "dependencies": {
+    "webpack-sources": "^1.1.0"
+  }
+}
